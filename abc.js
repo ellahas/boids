@@ -70,7 +70,7 @@ Scene.swarm.push( new Particle() )
 }
     let theta_writer = createWriter("thetas_06.txt")
     let O_writer = createWriter("O_over_generations_06.txt")
-    ABC(0.6, 20, 5, [0.1, 10, 0.15], [1, 100, 15], [1, 0.8, 0.5, 0.3, 0.1, 0.05], theta_writer, O_writer)
+    ABC(0.6, 20, 5, [0.1, 10, 1.5], [1, 100, 15], [1, 0.8, 0.5, 0.3, 0.1, 0.05], theta_writer, O_writer)
     theta_writer.close()
     O_writer.close()
 }
